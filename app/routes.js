@@ -9,6 +9,7 @@ module.exports = {
       res.render('examples/template-data', { 'name' : 'Foo' });
     });
 
+    
     // add your routes here
 
   }
