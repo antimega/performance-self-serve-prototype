@@ -20,3 +20,63 @@
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you,
 // either add and import new partial files, or modify those in GOV.UK elements to fit your user needs.
+
+.previous-answers {
+  width: auto;
+font-size: 16px;
+padding-bottom: 1em;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1em 0 2em;
+  width: 100%;
+}
+.smart-answer table {
+  border-collapse: collapse;
+    border-spacing: 0;
+    margin: 1em 0 2em;
+    width: 100%;
+}
+
+
+.sectionsmrt {
+  border-top: 1px solid #bfc1c3;
+}
+
+.section-title {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: bold !important;
+  text-transform: none !important;
+  padding-top: 1em !important;
+  width: 100%;
+}
+
+.previous-question-title {
+  padding: 0 1em 0.25em inherit;
+  width: 50%;
+}
+
+.previous-question-body {
+padding: 0 1em 0.25em inherit;
+width: 50%;
+}
+
+.link-right {
+  width: 10%;
+  padding-right: 0;
+  font-size: 14px;
+}
+
+article td {
+  font-family: "ntatabularnumbers","nta",Arial,sans-serif;
+font-size: 16px;
+line-height: 1.25;
+font-weight: 400;
+text-transform: none;
+vertical-align: top;
+}
