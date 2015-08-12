@@ -55,12 +55,12 @@ padding-bottom: 1em;
 
 }
 
-table {
+/* table {
   border-collapse: collapse;
   border-spacing: 0;
   margin: 1em 0 2em;
   width: 100%;
-}
+} */
 .smart-answer table {
   border-collapse: collapse;
     border-spacing: 0;
@@ -99,11 +99,28 @@ width: 50%;
   font-size: 14px;
 }
 
-article td {
+/* article td {
   font-family: "ntatabularnumbers","nta",Arial,sans-serif;
 font-size: 16px;
 line-height: 1.25;
 font-weight: 400;
 text-transform: none;
 vertical-align: top;
+}
+
+.table-title {
+font-weight: bold !important;
+  margin: 2em 0 2em 0;
+  line-height: 0.5;
+  border-bottom: 2px solid $grey-3;
+}
+
+.table-line {
+  margin: 2em 0 2em 0;
+  line-height: 0.5;
+  border-bottom: 2px solid $grey-3;
+} */
+
+.consig-info {
+  padding: 0em 0 0em 0;
 }
