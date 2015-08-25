@@ -121,6 +121,23 @@ font-weight: bold !important;
   border-bottom: 2px solid $grey-3;
 } */
 
-.consig-info {
-  padding: 0em 0 0em 0;
+.manage-options {
+  float: right;
+  font-size: 80%;
+}
+
+.add-kpi-0 {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin: 0.5em 0.5em 0.5em 0em;
+  background-color: #f6d7e5;
+}
+
+.add-kpi-1 {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin: 0.5em 0.5em 0.5em 0em;
+  background-color: #cce0d6;
+}
+
+.service-links {
+    margin-top: 30px;
 }
