@@ -127,15 +127,18 @@ font-weight: bold !important;
 }
 
 .add-kpi-0 {
-  padding: 0.5em 0.5em 0.5em 0.5em;
-  margin: 0.5em 0.5em 0.5em 0em;
+  padding: 0.9em 0.9em 0.9em 0.9em;
+  margin: 0.9em 0.9em 0.9em 0em;
   background-color: #f6d7e5;
+  border-bottom: 2px solid $grey-1;
+
 }
 
 .add-kpi-1 {
-  padding: 0.5em 0.5em 0.5em 0.5em;
-  margin: 0.5em 0.5em 0.5em 0em;
+  padding: 0.9em 0.9em 0.9em 0.9em;
+  margin: 0.9em 0.9em 0.9em 0em;
   background-color: #cce0d6;
+  border-bottom: 2px solid $grey-1;
 }
 
 .service-links {
@@ -143,23 +146,35 @@ font-weight: bold !important;
 }
 
 .admin-links {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
-.dashboard-status-draft {
-  background: $grey-1;
-  padding: 7px;
-  display: inline-block;
-  color: white;
+.status {
+  margin-top: -45px;
 }
+.dashboard-status-unpublished {
+  font-size: 110%;
+  background: $grey-3;
+  font-weight: bold;
+  padding: 14px;
+  display: inline-block;
+}
+
+
+.dashboard-status-published {
+  padding: 7px 7px 7px 0;
+  font-weight: bold;
+  display: inline-block;
+  color: $green;
+}
+
 
 .dash-tools {
   padding: 0.3em 0.3em 0.3em 0;
-  margin-top: 0.3em;
+  font-size: 90%;
 }
 
 .top-links {
-  margin-top: 20px;
 }
 
 #global-breadcrumb, .page-header {
