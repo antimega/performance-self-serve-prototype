@@ -28,27 +28,117 @@ How do users complete your service?
     <p>
       Select all options that are relevant to you.
     </p>
+		<p class="heading-medium">Digital channels</p>
     <div class="form-group form-group-compound">
-      <label class="block-label" for="website-channel" data-target="percent-of-users">
-        <input id="website-channel" type="checkbox" value="Citizen of a different country">
+      <label class="block-label" for="website-channel" data-target="website-percent-of-users">
+        <input id="website-channel" type="checkbox" value="Percent of users">
         Website
       </label>
     </div>
-    <div class="panel-indent js-hidden" id="percent-of-users">
+    <div class="panel-indent js-hidden" id="website-percent-of-users">
       <label class="form-label" for="website-channel">What percent of users use this channel?</label>
       <input class="form-control" type="text" id="website-channel">
     </div>
 
+
+
 		<div class="form-group form-group-compound">
-			<label class="block-label" for="website-channel" data-target="percent-of-users">
-				<input id="website-channel" type="checkbox" value="Citizen of a different country">
-				Website
+			<label class="block-label" for="api-channel" data-target="api-percent-of-users">
+				<input id="api-channel" type="checkbox" value="Percent of users">
+				API
 			</label>
 		</div>
-		<div class="panel-indent js-hidden" id="percent-of-users">
-			<label class="form-label" for="website-channel">What percent of users use this channel?</label>
-			<input class="form-control" type="text" id="website-channel">
+		<div class="panel-indent js-hidden" id="api-percent-of-users">
+			<label class="form-label" for="api-channel">What percent of users use this channel?</label>
+			<input class="form-control" type="text" id="api-channel">
 		</div>
+
+
+
+		<div class="form-group form-group-compound">
+			<label class="block-label" for="other-channel" data-target="other-percent-of-users">
+				<input id="other-channel" type="checkbox" value="Percent of users">
+				Other digital channel
+			</label>
+		</div>
+		<div class="panel-indent js-hidden" id="other-percent-of-users">
+			<label class="form-label" for="other-channel">What channel?</label>
+			<input class="form-control" type="text" id="channel-name">
+			<label class="form-label" for="other-channel">What percent of users use this channel?</label>
+			<input class="form-control" type="text" id="other-percent-of-users">
+		</div>
+
+		<br>
+		<p class="heading-medium">Non-digital channels</p>
+
+
+				<div class="form-group form-group-compound">
+					<label class="block-label" for="phone-channel" data-target="phone-percent-of-users">
+						<input id="phone-channel" type="checkbox" value="Percent of users">
+						Telephone number (automated)
+					</label>
+				</div>
+				<div class="panel-indent js-hidden" id="phone-percent-of-users">
+					<label class="form-label" for="phone-channel">What percent of users use this channel?</label>
+					<input class="form-control" type="text" id="phone-channel">
+				</div>
+
+
+
+				<div class="form-group form-group-compound">
+					<label class="block-label" for="phone-channel-operator" data-target="phone-op-percent-of-users">
+						<input id="phone-channel-operator" type="checkbox" value="Percent of users">
+						Telephone number (operator)
+					</label>
+				</div>
+				<div class="panel-indent js-hidden" id="phone-op-percent-of-users">
+					<label class="form-label" for="phone-channel-operator">What percent of users use this channel?</label>
+					<input class="form-control" type="text" id="phone-channel-operator">
+				</div>
+
+
+
+
+								<div class="form-group form-group-compound">
+									<label class="block-label" for="paper-form" data-target="paper-form-percent-of-users">
+										<input id="paper-form" type="checkbox" value="Percent of users">
+										Paper form
+									</label>
+								</div>
+								<div class="panel-indent js-hidden" id="paper-form-percent-of-users">
+									<label class="form-label" for="paper-form">What percent of users use this channel?</label>
+									<input class="form-control" type="text" id="paper-form">
+								</div>
+
+
+
+
+																<div class="form-group form-group-compound">
+																	<label class="block-label" for="face-to-face" data-target="face-to-face-percent-of-users">
+																		<input id="face-to-face" type="checkbox" value="Percent of users">
+																		Face to face
+																	</label>
+																</div>
+																<div class="panel-indent js-hidden" id="face-to-face-percent-of-users">
+																	<label class="form-label" for="face-to-face">What percent of users use this channel?</label>
+																	<input class="form-control" type="text" id="face-to-face">
+																</div>
+
+
+
+
+																<div class="form-group form-group-compound">
+																	<label class="block-label" for="other-nondigital" data-target="other-nondigital-percent-of-users">
+																		<input id="other-nondigital" type="checkbox" value="Percent of users">
+																		Other non-digital channel
+																	</label>
+																</div>
+																<div class="panel-indent js-hidden" id="other-nondigital-percent-of-users">
+																	<label class="form-label" for="other-nondigital">What percent of users use this channel?</label>
+																	<input class="form-control" type="text" id="other-nondigital">
+																</div>
+
+
   </fieldset>
 
 
@@ -56,60 +146,7 @@ How do users complete your service?
 
 
 
-		<p>
-		              <fieldset>
-		              <label class="block-label" for="check1">
-		                <input id="check1" type="checkbox" name="check1" value="I">
-		                Website
-		              </label>
-		              <label class="block-label" for="check2">
-		                <input id="check2" type="checkbox" name="check2" value="I">
-		                API
-		              </label>
-		              <label class="block-label" for="check3">
-		                <input id="check3" type="checkbox" name="check3" value="I">
-		                Other digital channel
-		              </label>
 
-		          </fieldset>
-
-		          <label class="form-label" for="other">Name of other digital channel</label>
-		          <input class="form-control" id="other" type="text">
-
-</p>
-
-	<h2 class="heading-medium">Non-digital channels</h2>
-
-				<p>
-				              <fieldset>
-				              <label class="block-label" for="bcheck1">
-				                <input id="bcheck1" type="checkbox" name="bcheck1" value="I">
-				                Telephone (automated)
-				              </label>
-				              <label class="block-label" for="bcheck2">
-				                <input id="bcheck2" type="checkbox" name="bcheck2" value="I">
-				                Telephone (operator)
-				              </label>
-
-				              <label class="block-label" for="bcheck4">
-				                <input id="bcheck4" type="checkbox" name="bcheck4" value="I">
-				                Paper form
-				              </label>
-				              <label class="block-label" for="bcheck5">
-				                <input id="bcheck5" type="checkbox" name="bcheck5" value="I">
-				                Face to face
-				              </label>
-				              <label class="block-label" for="bcheck6">
-				                <input id="bcheck6" type="checkbox" name="bcheck6" value="I">
-				                Other non-digital channel
-				              </label>
-
-				          </fieldset>
-
-				          <label class="form-label" for="other">Name of other non-digital channel</label>
-				          <input class="form-control" id="other" type="text">
-
-		</p>
 
 
 
