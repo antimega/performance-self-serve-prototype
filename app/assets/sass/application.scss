@@ -150,23 +150,21 @@ font-weight: bold !important;
 }
 
 .status {
-  margin-top: -45px;
+  margin-top: -15px;
 }
 .dashboard-status-unpublished {
   font-size: 110%;
   background: $grey-3;
-  font-weight: bold;
   padding: 14px;
   display: inline-block;
 }
 
 
 .dashboard-status-published {
-  padding: 7px 7px 7px 0;
-  font-weight: bold;
+  padding: 14px;
   display: inline-block;
-  color: $green;
-}
+background: #005ea5;
+color: white;}
 
 
 .dash-tools {
