@@ -122,24 +122,26 @@ font-weight: bold !important;
 } */
 
 .manage-options {
+  font-size: 90%;
   float: right;
-  font-size: 80%;
-  font-weight: bold;
 }
 
 .add-kpi-0 {
-  padding: 0.9em 0.9em 0.9em 0.9em;
+  padding: 0.9em 0.9em 0.9em 2em;
   margin: 0.9em 0.9em 0.9em 0em;
-  background-color: #f6d7e5;
+  background-color: $grey-4;
   border-bottom: 2px solid $grey-1;
+  min-height: 50px;
 
 }
 
 .add-kpi-1 {
-  padding: 0.9em 0.9em 0.9em 0.9em;
+  padding: 0.9em 0.9em 0.9em 2em;
   margin: 0.9em 0.9em 0.9em 0em;
   background-color: #cce0d6;
   border-bottom: 2px solid $grey-1;
+  min-height: 50px;
+
 }
 
 .service-links {
