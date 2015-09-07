@@ -216,3 +216,69 @@ color: white;}
   line-height: normal;
   font-size: 80%;
 }
+
+.govuk-option-select {
+    background-color: #dee0e2;
+    padding: 0 5px 5px 5px;
+}
+
+.js-enabled .govuk-option-select .js-container-head {
+    position: relative;
+}
+.govuk-option-select .container-head {
+    padding: 0 5px;
+}
+
+.govuk-option-select .option-select-label {
+    font-family: "nta",Arial,sans-serif;
+    font-size: 19px;
+    line-height: 1.31579;
+    font-weight: 400;
+    text-transform: none;
+    margin-right: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.search-page-filters .option-select-label {
+    display: block;
+  }
+
+  .js-enabled .govuk-option-select.js-collapsible .js-toggle-indicator {
+      display: -moz-inline-stack;
+      display: inline-block;
+      height: 15px;
+      width: 23px;
+      background-image: url("/static/images/option-select-toggle-sprite.png");
+      background-repeat: no-repeat;
+      background-position: 0 3px;
+      position: absolute;
+      right: 3px;
+      top: 10px;
+  }
+
+  .js-enabled .govuk-option-select.js-collapsible:hover {
+    background-color: #bfc1c3;
+    cursor: pointer;
+}
+
+.govuk-option-select .options-container {
+    position: relative;
+    background-color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 5px;
+}
+
+.govuk-option-select .options-container label {
+    display: -moz-inline-stack;
+    display: inline-block;
+    padding: 7px 0 7px 30px;
+    border-bottom: 1px solid #bfc1c3;
+    width: 100%;
+    cursor: pointer;
+}
+
+.option-select-container {
+  margin-bottom: 2em;
+}
