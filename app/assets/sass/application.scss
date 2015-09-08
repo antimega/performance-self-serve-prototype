@@ -282,3 +282,25 @@ color: white;}
 .option-select-container {
   margin-bottom: 2em;
 }
+
+.form-block {
+  display: block;
+  margin-bottom: 2em;
+}
+
+.complete-header {
+  position: relative;
+color: #fff;
+max-width: 640px;
+background: #28a197 !important;
+margin: 0.5em 0 1em;
+padding: 1em;
+}
+.complete-header h2 {
+    font-size: 27px;
+    padding-left: 64px;
+    font-weight: 400;
+    text-transform: none;
+    font-weight: 700;
+    background: url("/public/images/icon-tick.png") left 2% center no-repeat;
+}
