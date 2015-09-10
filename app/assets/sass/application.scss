@@ -304,3 +304,29 @@ padding: 1em;
     font-weight: 700;
     background: url("/public/images/icon-tick.png") left 2% center no-repeat;
 }
+
+.data-period {
+  padding-left: 40px;
+}
+
+.button-secondary {
+    background-color: #dee0e2;
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    padding: 0.3em 0.6em 0.2em 0.6em;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 2px 0 #b5babe;
+    -moz-box-shadow: 0 2px 0 #b5babe;
+    box-shadow: 0 2px 0 #b5babe;
+    font-size: 1em;
+    line-height: 1.25;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    color: #0b0c0c;
+}
