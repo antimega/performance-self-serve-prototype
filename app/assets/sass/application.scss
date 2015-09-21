@@ -128,10 +128,8 @@ font-weight: bold !important;
 
 .add-kpi {
   padding: 0.9em 0.9em 0.9em 0em;
-  margin: 0.9em 0.9em 0.9em 0em;
-  border-bottom: 2px solid $grey-1;
-  min-height: 50px;
-
+  margin: 0.2em 0.9em 0.9em 0em;
+  border-bottom: 1px solid $grey-2;
 }
 
 
@@ -147,11 +145,11 @@ font-weight: bold !important;
   margin-top: -55px;
 }
 .dashboard-status-unpublished {
-  background: $grey-3;
-  padding: 14px;
+  padding: 7px;
   display: inline-block;
   font-size: 24px;
   font-weight: normal;
+  color: $grey-1;
 }
 
 
